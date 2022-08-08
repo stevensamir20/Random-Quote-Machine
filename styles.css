@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#quote-box {
+    display: grid;
+    background-color: rgb(113, 113, 97);
+    margin: 200px auto;
+    padding: 20px;
+    width: 560px;
+    height: auto;
+    overflow: auto;
+    border-radius: 20px;
+}
+#flex-buttons, h2, p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+h2 {
+    justify-content: center;
+    text-align: center;
+}
+p {
+   justify-content: flex-end;
+}
+img {
+    width: 30px;
+}
+#tweet-quote {
+    padding: 2px;
+}
+#new-quote{
+    background-color: rgb(134, 134, 120);
+}
